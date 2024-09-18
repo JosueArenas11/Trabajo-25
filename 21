@@ -1,0 +1,41 @@
+%------------------------------------------------------------------------------
+% Módulo: asignar_palabra_japonesa
+% Propósito: Asignar la palabra japonesa "ネコ" a una cadena en formato binario.
+%
+% Autor: Josue Arenas
+% Fecha: 9 de Septiembre de 2024
+% Versión: 1.0
+%
+% Descripción:
+% Este módulo define una función que asigna la palabra japonesa "ネコ" (que significa
+"gato" en japonés)
+% a una variable en formato binario. La palabra se inicializa utilizando
+`unicode:characters_to_binary/1`.
+%
+% Dependencias:
+% Ninguna.
+%
+% Ejemplo de Uso:
+% 1. Compilar el módulo:
+% c(asignar_palabra_japonesa).
+% 2. Llamar a la función:
+% asignar_palabra_japonesa:asignar().
+%
+% Historial de Cambios:
+% 09/09/2024 - 1.0 - Creación del módulo para asignar una palabra japonesa a una cadena
+binaria.
+%
+% Notas:
+% La función `unicode:characters_to_binary/1` convierte una cadena de texto Unicode a su
+representación en binario.
+%------------------------------------------------------------------------------
+% Definición del módulo
+-module(asignar_palabra_japonesa).
+% Exportación de la función
+-export([asignar/0]).
+% Definición de la función que asigna la palabra japonesa "ネコ" a una cadena binaria
+% La función convierte la cadena "ネコ" a su representación en binario utilizando Unicode.
+-spec asignar() -> binary().
+asignar() ->
+S = unicode:characters_to_binary("ネコ"),
+S.
