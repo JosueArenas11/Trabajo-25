@@ -1,3 +1,4 @@
+ ```erlang
 %------------------------------------------------------------------------------
 % Módulo: verificar_valor
 % Propósito: Verificar si una lista contiene un valor específico.
@@ -50,3 +51,5 @@ end.
 miembro_parecido(_, []) -> false;
 miembro_parecido(Value, [H|_]) when Value =:= H -> true;
 miembro_parecido(Value, [_|T]) -> miembro_parecido(Value, T).
+
+ ```
