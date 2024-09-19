@@ -1,3 +1,4 @@
+ ```erlang
 %------------------------------------------------------------------------------
 % Módulo: invertir_lista
 % Propósito: Invertir el orden de los elementos de una lista.
@@ -35,3 +36,5 @@
 -spec invertir([any()]) -> [any()].
 invertir(List) ->
 lists:reverse(List).
+
+ ```
