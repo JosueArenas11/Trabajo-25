@@ -1,3 +1,4 @@
+ ```erlang
 %------------------------------------------------------------------------------
 % Módulo: iterar_lista
 % Propósito: Iterar sobre los valores de una lista y aplicar una función a cada elemento.
@@ -47,3 +48,5 @@ ok.
 -spec do_something(any()) -> ok.
 do_something(X) ->
 io:format("Procesando: ~p~n", [X]).
+
+ ```
