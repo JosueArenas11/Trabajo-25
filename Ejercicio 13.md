@@ -1,3 +1,4 @@
+ ```erlang
 %------------------------------------------------------------------------------
 % Módulo: iterar_mapa
 % Propósito: Iterar sobre las claves y valores de un mapa e imprimirlos.
@@ -45,3 +46,5 @@ end,
 ok,
 MyMap
 ).
+
+ ```
