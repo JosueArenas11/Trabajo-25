@@ -1,3 +1,4 @@
+ ```erlang
 %------------------------------------------------------------------------------
 % Módulo: ordenar_por_propiedad
 % Propósito: Ordenar listas de mapas o registros según el campo 'birth'.
@@ -45,3 +46,4 @@ sort_by_birth(ListOfMaps) ->
 -spec sort_by_birth([#item{}]) -> [#item{}].
 sort_by_birth(ListOfRecords) ->
     lists:keysort(#item.birth, ListOfRecords).
+ ```
