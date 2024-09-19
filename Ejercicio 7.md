@@ -1,3 +1,4 @@
+ ```erlang
 %------------------------------------------------------------------------------
 % Módulo: iterar_indices_valores
 % Propósito: Iterar sobre los índices y valores de una lista e imprimirlos.
@@ -41,3 +42,5 @@ WithIndex = lists:zip(lists:seq(1, length(Items)), Items),
 % Imprime la lista de pares índice-valor.
 io:format("Índices y Valores: ~p~n", [WithIndex]),
 ok.
+
+ ```
