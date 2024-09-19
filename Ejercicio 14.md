@@ -1,3 +1,4 @@
+ ```erlang
 %------------------------------------------------------------------------------
 % Módulo: seleccionar_aleatorio_flotante
 % Propósito: Seleccionar un número flotante aleatorio en el intervalo [a..b).
@@ -37,3 +38,5 @@ un intervalo.
 aleatorio(A, B) when A < B ->
 % Genera un número aleatorio en el intervalo [A, B).
 A + (B - A) * rand:uniform().
+
+ ```
