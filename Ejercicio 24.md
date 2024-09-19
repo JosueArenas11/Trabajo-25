@@ -1,3 +1,4 @@
+ ```erlang
 %------------------------------------------------------------------------------
 % Módulo: remover_item
 % Propósito: Remover un elemento de una lista dado su índice.
@@ -34,3 +35,5 @@
 remove_at(I, Items) ->
     {Left, [_|Right]} = lists:split(I-1, Items),
     Left ++ Right.
+
+ ```
