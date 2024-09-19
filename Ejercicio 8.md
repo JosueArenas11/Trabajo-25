@@ -1,3 +1,4 @@
+ ```erlang
 %------------------------------------------------------------------------------
 % Módulo: crear_mapa
 % Propósito: Crear un mapa con pares clave-valor como contenido inicial.
@@ -39,3 +40,5 @@ X = #{one => 1, "two" => 2.0, <<"three">> => [i, i, i]},
 % Imprimir el mapa.
 io:format("Mapa creado: ~p~n", [X]),
 X.
+
+ ```
