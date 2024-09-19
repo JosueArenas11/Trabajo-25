@@ -1,3 +1,4 @@
+ ```erlang
 %------------------------------------------------------------------------------
 % Módulo: estructura_arbol
 % Propósito: Definir una estructura de árbol recursiva donde cada nodo puede tener cero
@@ -40,3 +41,5 @@ contener
 value :: any(), % Valor almacenado en el nodo
 children = [] :: [node#{}] % Lista de hijos, que son nodos
 }).
+
+ ```
