@@ -23,7 +23,7 @@
 %
 % Historial de Cambios:
 % 09/09/2024 - 1.0 - Creación del módulo para barajar una lista utilizando permutaciones
-aleatorias.
+%aleatorias.
 %
 % Notas:
 % La función `rand:uniform/0` genera un número decimal aleatorio entre 0 y 1,
