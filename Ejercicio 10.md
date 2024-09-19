@@ -1,3 +1,4 @@
+ ```erlang
 %------------------------------------------------------------------------------
 % Módulo: barajar_lista
 % Propósito: Generar una permutación aleatoria de los elementos de una lista.
@@ -39,3 +40,5 @@ barajar(X) ->
 % Genera una lista de pares {valor_aleatorio, elemento} para cada elemento en X.
 % Luego, ordena esta lista por el valor aleatorio y extrae los elementos.
 [Y || {_, Y} <- lists:sort([ {rand:uniform(), N} || N <- X])].
+
+ ```
