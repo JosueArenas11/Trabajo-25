@@ -1,3 +1,4 @@
+ ```erlang
 %------------------------------------------------------------------------------
 % Módulo: points
 % Propósito: Crear una estructura de datos para un punto 2D.
@@ -58,3 +59,5 @@ Y.
 % PointAsAMap = #{x => X, y => Y}.
 % Implementación alternativa con tuplas
 % PointAsATuple = {X, Y}.
+
+ ```
