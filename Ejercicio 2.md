@@ -1,3 +1,4 @@
+ ```erlang
 %------------------------------------------------------------------------------
 % Módulo: imprimir_hola
 % Propósito: Imprimir "Hello" 10 veces en la consola.
@@ -46,3 +47,5 @@ io:format("Hello~n")
 end,
 lists:seq(1, 10)
 ).
+
+ ```
