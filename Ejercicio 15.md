@@ -1,3 +1,4 @@
+ ```erlang
 %------------------------------------------------------------------------------
 % Módulo: seleccionar_aleatorio_entero
 % Propósito: Seleccionar un número entero aleatorio en el intervalo [a..b].
@@ -37,3 +38,5 @@ un intervalo.
 aleatorio(A, B) when A < B ->
 % Genera un número entero aleatorio en el intervalo [A, B].
 crypto:rand_uniform(A, B + 1).
+
+ ```
