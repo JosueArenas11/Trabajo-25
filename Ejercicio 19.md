@@ -1,3 +1,4 @@
+ ```erlang
 %------------------------------------------------------------------------------
 % Módulo: convertir_a_entero
 % Propósito: Convertir una cadena de texto a un número entero.
@@ -37,3 +38,5 @@ correspondiente.
 -spec convertir(string()) -> integer().
 convertir(S) ->
 list_to_integer(S).
+
+ ```
