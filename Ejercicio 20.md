@@ -1,3 +1,4 @@
+ ```erlang
 %------------------------------------------------------------------------------
 % Módulo: convertir_a_cadena
 % Propósito: Convertir un número real a una cadena de texto con 2 decimales.
@@ -38,3 +39,5 @@ indicar 2 decimales
 -spec convertir(float()) -> string().
 convertir(X) ->
 io_lib:format("~.2f", [X]).
+
+ ```
