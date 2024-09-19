@@ -1,3 +1,4 @@
+ ```erlang
 %------------------------------------------------------------------------------
 % Módulo: procedimiento
 % Propósito: Ejecutar un procedimiento que imprime "#YOLO!" en la consola.
@@ -36,3 +37,5 @@
 -spec procedure() -> _.
 procedure() ->
 io:format("#YOLO!~n").
+
+ ```
