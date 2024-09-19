@@ -1,3 +1,4 @@
+ ```erlang
 %------------------------------------------------------------------------------
 % Módulo: buscar_item
 % Propósito: Buscar un ítem X en una matriz 2D M y devolver las coordenadas (i, j) de la
@@ -46,3 +47,5 @@ search_row(X, Row) -> search_row(X, Row, 1).
 search_row(_, [], _) -> notfound;
 search_row(X, [X|_], CN) -> CN;
 search_row(X, [_|Elems], CN) -> search_row(X, Elems, CN+1).
+
+ ```
