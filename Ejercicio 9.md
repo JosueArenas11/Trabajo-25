@@ -1,3 +1,4 @@
+ ```erlang
 %------------------------------------------------------------------------------
 % Módulo: arbol_binario
 % Propósito: Definir una estructura de datos para un árbol binario.
@@ -41,3 +42,5 @@ none}, right => none}, right => #{data => 15, left => none, right => none}}.
 }.
 % Definición de `none` para representar nodos vacíos
 -type none() :: none.
+
+ ```
