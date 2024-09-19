@@ -1,3 +1,4 @@
+ ```erlang
 %------------------------------------------------------------------------------
 % Módulo: crear_array_3d
 % Propósito: Crear e inicializar un arreglo tridimensional con valores reales aleatorios.
@@ -43,3 +44,5 @@ array(M, N) ->
 % Definición de la función para crear una lista de tamaño M con números reales aleatorios
 array(M) ->
     [rand:uniform() || _ <- lists:seq(1, M)].
+
+ ```
