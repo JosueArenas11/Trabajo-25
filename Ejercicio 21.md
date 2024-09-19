@@ -1,3 +1,4 @@
+ ```erlang
 %------------------------------------------------------------------------------
 % Módulo: crear_matriz
 % Propósito: Crear e inicializar una matriz bidimensional.
@@ -37,3 +38,5 @@
 crear(M, N) ->
     X = [{R * 1.0, C * 1.0} || R <- lists:seq(1, M), C <- lists:seq(1, N)],
     X.
+
+ ```
