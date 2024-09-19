@@ -1,3 +1,4 @@
+ ```erlang
 %------------------------------------------------------------------------------
 % Módulo: ejecutar_tareas_paralelas
 % Propósito: Ejecutar 1000 tareas independientes en paralelo usando procesos.
@@ -38,3 +39,4 @@ start_tasks() ->
     % Simulación de la tarea a ejecutar para el índice I
     io:format("Ejecutando tarea ~p~n", [I]),
     timer:sleep(1000).  % Pausa para simular trabajo, puedes modificarla según la tarea.
+ ```
